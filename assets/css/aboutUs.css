@@ -1,0 +1,167 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/********************  Navbar Start  ********************/
+#navbar .active a {
+  color: #30a7d7;
+}
+/********************  Navbar End  ********************/
+
+/********************  Hero Section Start  ********************/
+.hero-section-image {
+  width: 100%;
+  max-width: 856px;
+}
+/********************  Hero Section End  ********************/
+
+/********************  What We Do Start  ********************/
+.what-we-do-image {
+  width: 100%;
+  max-width: 636px;
+  object-fit: cover;
+}
+.what-we-do-title {
+  margin-bottom: 40px;
+}
+.what-we-do-title p {
+  margin-bottom: 5px;
+}
+.mission,
+.vision,
+.goals {
+  margin-bottom: 24px;
+}
+
+/********************  What We Do End  ********************/
+
+/********************  FAQ Start  ********************/
+.faq-title{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.faq-title p{
+  margin-top:10px;
+  width: 100%;
+  max-width: 635px;
+}
+.accordion-item {
+  border: none !important;
+  outline: none !important;
+}
+.accordion-item:focus {
+  border: none !important;
+  outline: none !important;
+}
+.accordion-button{
+  background-color:#F6FDFF !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #393E50 !important;
+}
+.accordion-collapse{
+  background-color:#F6FDFF !important;
+  font-size: 16px !important;
+  font-weight: medium !important;
+  color: rgba(57, 62, 80, 0.4) !important;
+}
+/********************  FAQ End  ********************/
+
+/********************  What We Do Start  ********************/
+.experience-image {
+  width: 100%;
+  max-width: 636px;
+  object-fit: cover;
+}
+.experience-title p {
+  margin-top: 16px;
+}
+/********************  What We Do End  ********************/
+
+/********************  Custome Plan Start  ********************/
+.custome-plan {
+  background-image: url(../images/bg-custome-plane.png);
+  width: 100%;
+  max-width: 1296px;
+  color: #fff;
+  height: 260px;
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.custome-plan p{
+    margin-bottom:10px;
+}
+.email-field{
+    margin-top:40px;
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius:8px;
+    padding: 12px 16px 12px 16px;
+}
+.input{
+    border:none;
+    width:100%;
+}
+.input:focus{
+    border:none;
+    outline:none;
+}
+.send{
+    cursor: pointer;
+}
+/********************  Custome Plan End  ********************/
+.matrix{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.matrix-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+   .what-we-do{
+    display:flex;
+    flex-direction:column-reverse;
+   }
+   .what-we-do-image{
+    height: 218px;
+   }
+   .experience-image{
+    height: 218px;
+   }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 570px) {
+  .accordion-button{
+    font-size: 16px !important;
+  }
+  .accordion-collapse{
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 479px) {
+    .slider img {
+        height: 190px;
+    }
+}
+/********************  Media Queries End  ********************/

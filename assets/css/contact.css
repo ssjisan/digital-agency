@@ -1,0 +1,156 @@
+/********************  Navbar Start  ********************/
+#navbar .active a {
+  color: #30a7d7;
+}
+/********************  Navbar End  ********************/
+/********************  Banner Start  ********************/
+.banner {
+  background-image: url(../images/contact-us/contact-us.png);
+  width: 100%;
+  color: #fff;
+  height: 260px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/********************  Banner End  ********************/
+
+/********************  FAQ Start  ********************/
+.faq-title{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.faq-title p{
+  margin-top:10px;
+  width: 100%;
+  max-width: 635px;
+}
+.accordion-item {
+  border: none !important;
+  outline: none !important;
+}
+.accordion-item:focus {
+  border: none !important;
+  outline: none !important;
+}
+.accordion-button{
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #393E50 !important;
+}
+.accordion-collapse{
+  font-size: 16px !important;
+  font-weight: medium !important;
+  color: rgba(57, 62, 80, 0.4) !important;
+}
+/********************  FAQ End  ********************/
+
+/********************  Contact form Start  ********************/
+.contact-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.information p {
+  width: 100%;
+  max-width: 376px;
+  margin-left: 16px;
+}
+.information:not(:last-child) {
+  margin-bottom: 24px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  border: none;
+  width: 100%;
+}
+.input:focus {
+  border: none;
+  outline: none;
+}
+/********************  Contact form End  ********************/
+/* *******************  More Contact Start  ********************/
+.more-contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.more-contact-box {
+  display: flex;
+  justify-content: center;
+}
+.more-contact-title p {
+  margin-top: 24px;
+  width: 100%;
+  max-width: 535px;
+}
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(57, 62, 80, 0.4);
+  border-radius: 8px;
+  padding: 20px 96px;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(57, 62, 80, 0.05);
+  border-radius: 8px;
+  padding: 20px 96px;
+}
+.mail p,
+.phone p{
+  text-align: center;
+}
+/********************  More Contact End  ******************* */
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+  .mail,
+  .phone {
+    padding: 20px 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mail {
+    margin-bottom:24px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .accordion-button{
+    font-size: 16px !important;
+  }
+  .accordion-collapse{
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  
+}
+/********************  Media Queries End  ********************/
+

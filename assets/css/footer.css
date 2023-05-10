@@ -1,0 +1,103 @@
+/********************  Footer Start  ********************/
+.footer-logo{
+    width:100%;
+    max-width: 330px;
+}
+.company-info {
+    padding-top: 40px;
+    max-width: 424px;
+    width: 100%;
+}
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cta h5{
+    margin-bottom: 40px;
+}
+.cta a {
+    text-decoration: none;
+    padding-bottom: 14px;
+    color: #393e50;
+}
+.cta a:hover{
+    color:#393e50;
+    opacity: 60%;
+}
+.social-links {
+    display: flex;
+}
+.social-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 20px;
+}
+.hover-state{
+    display: none;
+}
+.facebook:hover {
+    background-color: #3d5998;
+}
+.facebook:hover .normal-state {
+    display: none;
+}
+.facebook:hover .hover-state {
+    display: inline-block;
+}
+.twitter:hover {
+    background-color: #00acee;
+}
+.twitter:hover .normal-state {
+    display: none;
+}
+.twitter:hover .hover-state {
+    display: inline-block;
+}
+.instagram:hover {
+    background: linear-gradient(
+        33.6deg,
+        #f8c66a 11.23%,
+        #f69048 26.62%,
+        #f05849 45.56%,
+        #cd3f5f 65.29%,
+        #57469c 87%
+    );
+}
+.instagram:hover .normal-state {
+    display: none;
+}
+.instagram:hover .hover-state {
+    display: inline-block;
+}
+.copyright {
+    padding-bottom: 40px;
+}
+/********************  Footer End  ********************/
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+    .cta-company{
+        display: flex;
+        align-items: flex-end;
+    }
+    .location,.first-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 570px) {
+}
+@media screen and (max-width: 479px) {  
+}
+/********************  Media Queries End  ********************/

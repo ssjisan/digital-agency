@@ -1,0 +1,138 @@
+/********************  Font List Start  ********************/
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi-bold{
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.desktop-h1 {
+  font-size: 64px;
+  line-height: 150%;
+}
+.desktop-h2 {
+  font-size: 40px;
+  line-height: 150%;
+}
+.desktop-h3 {
+  font-size: 32px;
+  line-height: 150%;
+}
+.desktop-h4 {
+  font-size: 24px;
+  line-height: 150%;
+}
+.desktop-subtitle {
+  font-size: 20px;
+  line-height: 150%;
+}
+.desktop-body {
+  font-size: 16px;
+  line-height: 150%;
+}
+.desktop-body2 {
+  font-size: 14px;
+  line-height: 150%;
+}
+/********************  Font List End  ********************/
+
+/********************  Button Start  ********************/
+.button{
+  font-size:14px;
+  line-height: 140%; 
+  font-weight: 700;
+  padding: 12px 110px 12px 110px;
+  background-color:#30A7D7;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.6s ease-in-out;
+}
+.button:hover{
+  font-size:14px;
+  line-height: 140%; 
+  font-weight: 700;
+  padding: 12px 110px 12px 110px;
+  background-color:#fff;
+  color: #30A7D7;
+  border: 1px solid #30A7D7;
+  border-radius: 8px;
+  transition: all 0.6s ease-in-out;
+}
+/********************  Button Start  ********************/
+
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+  .desktop-h1 {
+    font-size: 32px;
+    line-height: 150%;
+  }
+  .desktop-h2 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .desktop-h3 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .desktop-h4 {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .desktop-body {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .button{
+    padding:10px 90px 10px 90px;
+  }
+  .button:hover{
+    padding:10px 90px 10px 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .desktop-body {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
+@media screen and (max-width: 570px) {
+}
+@media screen and (max-width: 479px) {
+  .desktop-h1 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .desktop-h2 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .desktop-h3 {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .desktop-h4 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .desktop-body {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .button{
+    padding: 8px 80px 8px 80px;
+  }
+  .button:hover{
+    padding: 8px 80px 8px 80px;
+  }
+}
+/********************  Media Queries End  ********************/

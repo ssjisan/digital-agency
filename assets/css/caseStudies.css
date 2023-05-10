@@ -1,0 +1,190 @@
+/********************  Navbar Start  ********************/
+#navbar .active a {
+    color: #30a7d7;
+}
+/********************  Navbar End  ********************/
+
+/********************  Hero Section Start  ********************/
+.first-post-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 416px;
+    height: 180px;
+    position: absolute;
+    margin-top: 80px !important;
+}
+.first-post-subtitle {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-post-image {
+    display: flex;
+    justify-content: flex-end;
+}
+.first-post-image img {
+    width: 100%;
+    max-width: 526px;
+    height: 344px;
+    border-radius: 10px;
+}
+.trending-post-card h4 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.trending-post-card {
+    width: 100%;
+}
+.trending-post-image img {
+    width: 100%;
+    height: 218px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+/********************  Hero Section End  ********************/
+
+/********************  Featured Section Start  ********************/
+.featured-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.featured-image {
+    margin-bottom: 16px;
+}
+.featured-card {
+    width: 100%;
+    max-width: 306px;
+}
+.featured-image img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: 190px;
+}
+/********************  Featured Section End  ********************/
+
+/********************  Mid Section Start  ********************/
+.mid-image {
+    margin-bottom: 24px;
+}
+.mid-image img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 856px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.details{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+.details p{
+  margin-right:40px;
+}
+.recent-posts-card {
+    height: 86px;
+    margin-bottom: 16px;
+}
+.recent-posts h4 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.recent-posts-list {
+    display: flex;
+}
+.recent-posts-list img {
+    width: 86px;
+    height: 86px;
+    border-radius: 8px;
+}
+.recent-posts-details {
+    margin-left: 24px;
+}
+/********************  Mid Section End  ********************/
+
+/********************  All Posts Start  ********************/
+.post-card {
+  width:100%;
+  max-width: 306px;
+  margin-bottom:40px;
+}
+.post-info {
+  display: flex;
+  justify-content: space-between;
+}
+.all-post-image{
+  margin-bottom: 16px;
+}
+.all-post-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+/********************  All Posts End  ********************/
+
+/********************  Media Query Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+    .first-post-card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .first-post-image img {
+        height: 218px;
+        margin-bottom: 16px;
+        object-fit: cover;
+    }
+    .first-post-details {
+        position: relative;
+        width: 100%;
+        margin-top: 0px !important;
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+  .mid-image img {
+    height: 218px;
+   }
+   .mid-details{
+    margin-bottom:24px;
+   }
+   .mid-details h4{
+    text-align: center;
+   }
+   .details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.details p{
+  margin-right: 0px;
+}
+}
+@media screen and (max-width: 576px) {
+    .featured-card {
+        width: 100%;
+        max-width: 550px;
+        margin-bottom: 24px;
+    }
+    .post-card {
+      width: 100%;
+      max-width: 550px;
+      margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 479px) {
+}
+
+/********************  Media Query End  ********************/

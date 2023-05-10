@@ -1,0 +1,451 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+/********************  Navbar Start  ********************/
+#navbar .active a {
+    color: #30a7d7;
+}
+/********************  Navbar End  ********************/
+
+/********************  Hero Section Start  ********************/
+.background-image {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.hero-section-image {
+    max-width: 648px;
+    width: 100%;
+}
+.hero-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/********************  Hero Section End  ********************/
+
+/********************  Our Services Start  ********************/
+.services-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-subtitle {
+    width: 100%;
+    max-width: 635px;
+}
+.services-card-link {
+    text-decoration: none;
+}
+.service-card {
+    margin-bottom: 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 40px;
+}
+.service-icon {
+    background: rgba(60, 97, 201, 0.1);
+    margin-bottom: 30px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.normal-state {
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.hover-state {
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.service-card:hover {
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 2px 4px 16px rgba(60, 97, 201, 0.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.service-card:hover .service-icon {
+    background-color: #3c61c9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.service-card:hover .normal-state {
+    display: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.service-card:hover .hover-state {
+    display: block;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.service-card:hover .service-tag {
+    color: #30a7d7;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+/********************  Our Services End  ********************/
+
+/********************  Case Studies Start  ********************/
+.case-study {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.case-study-subtitle {
+    width: 100%;
+    max-width: 635px;
+}
+.case-studies {
+    display: none;
+}
+.case-studies-slider img {
+    border-radius: 12px;
+    height: 218px;
+    object-fit: cover;
+}
+.img-wrapper {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.img-wrapper img {
+    height: 234px;
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    transition: transform 1.5s;
+    transition-timing-function: ease-in-out;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(48, 167, 215, 0.4) 0%,
+        rgba(48, 167, 215, 0) 101.83%
+    );
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.overlay h6,
+.overlay p {
+    color: #fff;
+    background: transparent !important;
+    transform: translateY(150px);
+    transition: transform 0.3s;
+}
+.overlay h2 {
+    transition-delay: 0.1s;
+}
+.img-wrapper:hover img {
+    transform: scale(1.25);
+}
+.img-wrapper:hover .overlay {
+    opacity: 1;
+}
+.img-wrapper:hover .overlay h6,
+.img-wrapper:hover .overlay p {
+    transform: translateY(0);
+}
+.img-wrapper:hover .overlay p {
+    transition-delay: 0.2s;
+}
+.see-all {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #30a7d7;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.see-all:hover {
+    border: 1px solid #30a7d7;
+    background-color: #fff;
+    color: #30a7d7;
+    transition: all 0.5s ease-in-out;
+}
+.button-position {
+    display: flex;
+    justify-content: center;
+}
+/******************** Case Studies End  ********************/
+
+/******************** Features Start  ********************/
+.features {
+    background: rgba(48, 167, 215, 0.025);
+}
+.feature-section-title {
+    width: 424px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.feature-section-subtitle {
+    width: 424px;
+    max-width: 100%;
+    margin-bottom: 64px;
+}
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 25px 100px rgba(48, 167, 215, 0.08);
+    border-radius: 10px;
+}
+.first-card {
+    margin-top: 64px;
+    margin-bottom:24px;
+}
+.fourth-card {
+    margin-top: -64px;
+}
+.features-icon {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 30px rgba(48, 167, 215, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.features-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.features-button-after{
+    display:none;
+}
+/******************** Features End  ********************/
+/********************  Recent Projects Start  ********************/
+.recent-projects-slider {
+    overflow: hidden;
+}
+.recent-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.recent-projects-slider img {
+    height: 315px;
+    object-fit: cover;
+}
+.slick-track {
+    display: flex;
+}
+.recent-project-subtitle {
+    width: 100%;
+    max-width: 635px;
+    text-align: center;
+}
+/********************  Recent Projects Start  ********************/
+/******************** Brand Logo End  ********************/
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 10;
+    padding: 0;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+.title-box {
+    position: relative;
+}
+.testimonial-title {
+    position: absolute;
+    width: 100%;
+    max-width: 424px;
+    margin-left: 70px;
+    margin-top: -80px;
+}
+.testimonial {
+    margin-top: 80px;
+    text-align: center;
+}
+.testimonial-text {
+    margin: auto;
+    width: 726px;
+    max-width: 100%;
+}
+
+/******************** Custome PLan Start ********************/
+.custome-plan {
+    background-image: url(../images/bg-custome-plane.png);
+    width: 100%;
+    max-width: 1296px;
+    color: #fff;
+    height: 260px;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custome-plan p {
+    margin-bottom: 10px;
+}
+.email-field {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 16px 12px 16px;
+}
+.input {
+    border: none;
+    width: 100%;
+}
+.input:focus {
+    border: none;
+    outline: none;
+}
+.send {
+    cursor: pointer;
+}
+/******************** Custome Plan ENd  ********************/
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+    .features-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:40px;
+    }
+    .feature-section-title {
+        width: 635px;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .feature-section-subtitle {
+        width: 635px;
+        max-width: 100%;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .features-button-before{
+        display:none;
+    }
+    .features-button-after{
+        margin: auto;
+        display:block;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hero-section-content{
+        text-align: center;
+    }
+    .abstract {
+        display: none;
+    }
+    .testimonial-title {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .title-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial {
+        margin-top: 16px;
+    }
+    .img-wrapper {
+        margin-bottom: 12px;
+    }
+    .second-part{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 767px) {
+    .first-card {
+        margin-top: 0px;
+        margin-bottom:12px;
+    }
+    .second-card{
+        margin-bottom:12px;
+    }
+    .third-card{
+        margin-bottom:12px;
+    }
+    .fourth-card {
+        margin-top: 0px;
+    }
+    .service-card {
+        margin-bottom: 12;
+        padding: 24px;
+    }
+    
+}
+@media screen and (max-width: 570px) {
+    .service-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+    .service-card p{
+       text-align: center;
+    }
+    .case-studies {
+        display: block;
+    }
+    .case-studies-full {
+        display: none;
+    }
+    .case-studies-slider{
+        width: 100%;
+        height: 190px;
+    }
+    .case-studies-slider img{
+        width: 100%;
+        height: 190px;
+    }
+    .recent-projects-slider img {
+        height: 218px;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 479px) {
+}
+/********************  Media Queries End  ********************/

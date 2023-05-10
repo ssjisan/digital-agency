@@ -1,0 +1,62 @@
+/********************  Navbar Start  ********************/
+#navigation {
+  z-index: 9999;
+  transition: 0.5s;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+#navbar a {
+  color: #393e50;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+#navbar a:hover {
+    opacity: 40%;
+}
+
+.navbar-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dropdown-menu a{
+  margin-left: 0px !important;
+}
+.dropdown-menu a:not(:last-child) { 
+	margin-bottom: 16px
+} 
+.dropdown-menu a:hover{
+  background-color: transparent !important;
+}
+.dropdown:hover .dropdown-menu{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0; 
+  /* max-width:300px; */
+  margin-left: 50px;
+  transition: all 0.6s ease-in-out;
+}
+/********************  Navbar End  ********************/
+/********************  Media Queries Start  ********************/
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 991px) {
+  #navbar a {
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 570px) {
+}
+@media screen and (max-width: 479px) {  
+}
+/********************  Media Queries End  ********************/

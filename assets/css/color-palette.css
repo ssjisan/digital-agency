@@ -1,0 +1,45 @@
+/********************  Text Color Palette Start  ********************/
+.primary-text {
+    color: #393e50;
+    opacity: 100%;
+}
+.primary-text-80 {
+    color: #393e50;
+    opacity: 80%;
+}
+.primary-text-60 {
+    color: #393e50;
+    opacity: 60%;
+}
+.primary-text-40 {
+    color: #393e50;
+    opacity: 40%;
+}
+.primary-text-20 {
+    color: #393e50;
+    opacity: 20%;
+}
+/********************  Text Color Palette End  ********************/
+
+/********************  Primary Color Palette Start  ********************/
+.primary {
+    color: #30a7d7;
+    opacity: 100%;
+}
+.primary-80 {
+    color: #30a7d7;
+    opacity: 80%;
+}
+.primary-60 {
+    color: #30a7d7;
+    opacity: 60%;
+}
+.primary-40 {
+    color: #30a7d7;
+    opacity: 40%;
+}
+.primary-20 {
+    color: #30a7d7;
+    opacity: 120%;
+}
+/********************  Primary Color Palette End  ********************/
